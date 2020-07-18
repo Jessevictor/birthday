@@ -18,7 +18,7 @@
     
     </div>
     <div id="all">
-    <div class="Know">
+       <div class="Know">
         <h1>Know</h1>
         <p>This is a website that takes your birthday date
             and calculates the day of the week your were born.
@@ -26,38 +26,36 @@
             the day of there birth)
         </p>
         <p>I know you are <strong>READY</strong></p>
+    
     <div class="form"> 
         <h1>AKAN!</h1></div>
     <div class="main">
         <form>
             <div id="Year of Birth">
-                <h2 class="Year">Year of Birth</h2>
-                <input class="Year of Birth" type="text" name="Year_of_Birth"><br>
+                <h2 class="name">Year of Birth</h2>
+                <input class="year" type="text" name="Year_of_Birth" id="y"><br>
             </div>
 
-            <h2 class="Month of Birth"> Month of Birth</h2>
-            <input class="Month of Birth" type="text" name="Month of Birth">
+            <h2 class="name"> Month of Birth</h2>
+            <input class="month" type="text" name="Month of Birth" id="m">
 
-            <h2 class="Day of Birth"> Day of Birth</h2>
-            <input class="Day of Birth" type="text" name="Day of Birth">
+            <h2 class="name"> Day of Birth</h2>
+            <input class="day" type="text" name="Day of Birth" id="d">
             <h1 id="gender">Select your Gender</h1>
 
-            <lable class="radio">
-                <input  class="radio-one" type="radio" checked="checked" name="">
-                <span class="checkmark"></span>
-                Male
-            </lable>
+            <div class="radio">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioMale" value="option1">
+                <label class="form-check-label" for="inlineRadioMale">Male</label>
+              </div>
+              <div class="radio">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioFemale" value="option2">
+                <label class="form-check-label" for="inlineRadioFemale">Female</label>
+              </div><br>
 
-
-            <lable class="radio">
-                <input  class="radio-one"  type="radio" checked="checked" name="">
-                <span class="checkmark"></span>
-                Female
-            </lable>
-
-            <button type="submit">Submit</button>
+            <button type="submit" class="btn-btn-default" onclick="Akan()">Submit</button>
 
         </form>
+        </div>
     </div>
     </div>
       <script src="index.js"></script>
