@@ -1,5 +1,10 @@
 body{
-    border-radius:;
+    background-image: url(/120.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+
 }
 .Know{
     position: absolute;
@@ -110,4 +115,7 @@ button{
     cursor:pointer;
     transition:0.25px;
 }
-div all {padding: 6px; padding-bottom: 2px; padding-left: 18px; }
+#all {
+    color: white;
+    font-style: oblique;
+ }
