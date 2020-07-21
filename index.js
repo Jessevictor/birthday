@@ -1,5 +1,5 @@
  
-function checkName() {
+function akan() {
     var dd, mm, yyyy;
     dd = document.getElementById("dd").value;
     mm = document.getElementById("mm").value;
@@ -40,14 +40,15 @@ function checkName() {
 
     if (gender == "Female") {
         alert("Your name is " + femaleNames[f - 1] + " You were born on " + daysofWeek[f - 1])
-        return;
+        
     }
 
     if (gender == "Male") {
         alert("Your name is " + meleNames[f - 1] + " You were born on " + daysofWeek[f - 1])
-        return;
+        
     }
 
 
 }
+console.log(akan)
 
