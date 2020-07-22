@@ -15,15 +15,15 @@ function akan() {
     var yy = parseInt(yyyy.slice(2, 4));
 
     if (gender === 'male') {
-        alert(" His Birthday Is On" + daysofWeek[date.getdd()] + ',' + " Your Akan Name Is " + maleNames[date.getdd()]);
+        alert(" His Birthday Is On" + daysofWeek[date.getDay()] + ',' + " Your Akan Name Is " + maleNames[date.getDay()]);
         document.getElementById('akan').innerHTML = maleNames[date.getDay()]
     }
     else if (gender === 'female') {
-        alert("Her Birthday Is On  " + daysofWeek[date.getdd()] + ',' + " Your Akan Name Is " + femaleNames[date.getdd()]);
+        alert("Her Birthday Is On  " + daysofWeek[date.getDay()] + ',' + " Your Akan Name Is " + femaleNames[date.getDay()]);
         document.getElementById('akan').innerHTML = femaleNames[date.getDay()];
     }
     else {
-        alert( " IF HIS/HER BIRTHDAY" + " UNDFINED DATE " + ',' + " Your Akan Name Is "  + " UNDEFINED ");
+        alert( " Please You Have" + " UNDEFINED DATE " + ',' + " Your Akan Name Is "  + " UNDEFINED ");
     }
     
     if (document.getElementById("inlineRadioMale").checked) {
