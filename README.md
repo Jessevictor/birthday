@@ -1,10 +1,10 @@
 # Project Name
 
-     Akan Names
+  Akan Names
 
 ## Authors Name
 
-     Jesse Victor
+  Jesse Victor
 
 ## Description of project
 
@@ -12,11 +12,11 @@
 
 ## Project Used
 
-         HTML, CSS and Javascript.
+  HTML, CSS and Javascript.
 
 ## links
 
-     For the live link click here : https://jessevictor.github.io/birthday/
+  For the live link click here : https://jessevictor.github.io/birthday/
 
 ## License
 
